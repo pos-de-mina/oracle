@@ -36,10 +36,11 @@ export PATH
 
 # -------------------------------------
 # Parameters
-
-#$ tnsping dapp7
-#Attempting to contact (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=apexa2ip-scan.besp.dsp.gbes)(PORT=1533))(CONNECT_DATA=(SERVICE_NAME=DAPP7)))
-#/omd/agent_oracle.sh 'apexa2ip-scan.besp.dsp.gbes' DAPP7 nagios N4gi1os2k19 (['version']=3600 ['processes']=60 ['logswitches']=60 ['locks']=60 ['performance']=60 ['dataguard_stats']=60 ['asm_diskgroup']=60 ['longactivesessions']=60 ['recovery_status']=60 ['sessions']=60 ['resumable']=60 ['rman']=60 ['tablespaces']=60 ['recovery_area']=60 ['undostat']=60 ['jobs']=60 ['ts_quotas']=60 ['instance']=60)
+#   - $1: host
+#   - $2: SID
+#   - $3: user
+#   - $4: password
+#   - $5: sections in format (['version']=3600 ['processes']=60 ['logswitches']=60 ['locks']=60 ['performance']=60 ['dataguard_stats']=60 ['asm_diskgroup']=60 ['longactivesessions']=60 ['recovery_status']=60 ['sessions']=60 ['resumable']=60 ['rman']=60 ['tablespaces']=60 ['recovery_area']=60 ['undostat']=60 ['jobs']=60 ['ts_quotas']=60 ['instance']=60)
 
 # $1
 ORACLE_HOST=$1
