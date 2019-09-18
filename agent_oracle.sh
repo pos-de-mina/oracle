@@ -4,7 +4,6 @@
 #
 # S E T U P
 #   - Install Oracle Client
-#   ln -s /omd/tools/jq /omd/sites/*/jq
 #   chmod +x /omd/agent_oracle.sh
 #   ln -s /omd/agent_oracle.sh /omd/versions/default/share/check_mk/agents/special/agent_oracle
 #
